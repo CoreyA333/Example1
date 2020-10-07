@@ -1,0 +1,228 @@
+/* 
+    Document     : gamestyle.css
+    Created on   : Nov 16, 2017, 12:44:08 AM
+    Author       : Corey Anderson and Ian Hays
+    Description  : Style the Online Gameing Store web site
+*/
+
+body {
+    text-align: center;  
+    background-color: #DFDFE1; 
+}
+
+div#wrapper {
+    text-align:left; 
+    width:980px; 
+    margin:0 auto; 
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 15px 0 15px 0;
+    -moz-border-radius: 15px 0 15px 0;
+    -webkit-border-radius: 15px 0px 15px 0px;
+}
+
+#curdate {
+    float:right;
+    margin-top: -20px;
+}
+
+#navbar {
+    background-color: #00ffff;
+    padding: 5px 10px;
+    border-radius: 15px 0 0 0;
+    -moz-border-radius: 15px 0 0 0;
+    -webkit-border-radius: 15px 0px 0 0;
+    clear: right;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover,
+#navbar a:active,
+#navbar a:focus
+{
+    color: white;
+}
+#footer {
+    height: 40px;
+    font-size: 80%;
+    color: #00ffff;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #000000;
+    border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+}
+
+#banner {
+    background-color: #000000; 
+    padding: 5px;
+    width: 100%;
+}
+
+#banner img {
+    width: 250px;
+    border: none;
+}
+
+#maintitle {
+    color: white; 
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#subtitle {
+    color: #00ffff;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+
+
+/* styles for the main content body */
+#mainbody {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+#mainbody a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#mainbody a:hover,
+#mainbody a:active,
+#mainbody a:focus
+{
+    text-decoration: underline;
+    color: #448c9a;
+}
+
+
+/* styles of the list games table */
+table.listgames {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+table.listgames th {
+    background-color: #e4f1fe;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+table.listgames td {
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    vertical-align: top;
+}
+table.listgames th.col1 {
+
+}
+
+table.listgames th.col2 {
+    width: 250px;
+}
+
+table.listgames th.col3 {
+    width: 150px;
+}
+
+table.listgames th.col4 {
+    width: 60px;
+}
+
+
+table.listgames tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* styles of the game details table */
+table.gamedetails {
+    width: 100%;
+    border-collapse: collapse;
+    font: 12px/18px Arial, Sans-serif;
+    margin: 5px 0;
+}
+
+table.gamedetails td {
+    vertical-align: top;
+}
+
+table.gamedetails h4, table.gamedetails p {
+    margin: 0px 0px 5px 10px;
+}
+
+table.gamedetails td.col1 {
+    width: 180px;
+}
+
+table.gamedetails td.col1 img {
+    width: 160px;
+}
+
+table.gamedetails td.col2 {
+    width: 120px;
+}
+
+table.gamedetails td.col3 {
+    width: 500px;
+}
+
+table.gamedetails td.col4 {
+    padding-left: 25px;
+    vertical-align: top;
+}
+
+table.gamedetails td.col4 img{
+    border: none;
+    width: 100px;
+}
+
+/*styles for action buttons */
+.gamestore-button input{
+    width: 75px;
+}
+
+.gamestore-button.delete-confirmed {
+    display: none;
+}
+
+.gamestore-button.delete-initial span,
+.gamestore-button.delete-confirmed span {
+    color: red;
+    font: 12px/18px Arial, Sans-serif;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/* styles of the shopping cart */
+#shoppingcart {
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    background-color: #00ffff;
+    padding-top: 10px;
+}
+
+#shoppingcart a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#shoppingcart img {
+    width: 50px;
+    border: none;
+}
+
+#shoppingcart span {
+    display: block;
+}
